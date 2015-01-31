@@ -9,7 +9,9 @@ namespace Hero
     {
         static void Main(string[] args)
         {
-          
+            Hero hero = new Hero("Lux");
+            hero.show();
+            hero.fight();
         }
     }
 }
