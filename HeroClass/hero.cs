@@ -47,4 +47,34 @@ namespace HeroClass
 
 
             }
+
+        }
+
+        private bool hitAttempt()
+        {
+            Random rnd = new Random();
+            int chance = rnd.Next(5) + 1;
+            if (chance == 1)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        private int hitDamage()
+        {
+            Random rnd = new Random();
+            int damage = this.strength * (rnd.Next(6) + 1);
+            return damage;
+        }
+
+        public void show()
+        {
+            Console.WriteLine("{0}'s health: {1}  strength: {2}  speed: {3}", this.name, this.health, this.strength, this.speed);
+        }
+    }
+    }
             
