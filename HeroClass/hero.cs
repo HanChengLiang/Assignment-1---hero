@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// Author: Han Cheng Liang
+// ID: 300791705
+using System;
 
-namespace HeroClass
+
+namespace Hero
 {
 
         class Hero
