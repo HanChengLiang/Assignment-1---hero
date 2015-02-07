@@ -12,6 +12,10 @@ namespace Hero
             Hero hero = new Hero("Lux");
             hero.show();
             hero.fight();
+
+            SuperHero superHero = new SuperHero("BatMan");
+            superHero.showPowers();
+            superHero.fight();
         }
     }
 }
